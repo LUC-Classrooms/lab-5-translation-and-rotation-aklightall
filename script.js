@@ -18,7 +18,7 @@ function draw() {
   
   //add an if() statement here
   if(mouseIsPressed){
-    rotate(HAL_PI);
+    rotate(HALF_PI);
   } else {
     rotate(0);
   }
